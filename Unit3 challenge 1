@@ -1,0 +1,15 @@
+def  (linearsearch product(productlist,targetproduct):
+   indices=[]
+for index, product in enumeraie(productlist):
+  if product==target product:
+    indices.append(index)
+
+ return indices
+
+
+# example usage:
+products=["shoes","boot","lofer","shoes","sandal","shoes"]
+target="shoes"
+target2='apple'
+result=linearsearch product (products,target)
+print(result)
