@@ -1,0 +1,30 @@
+class student:
+
+def__init__(self,name,roll_number,cgpa):
+   self.name=name
+   self.roll-number=roll-number
+   self.cgpa=cgpa
+
+
+def sort-students(student-list):
+# sort the list of students in descending order of CGPA
+sorted-students=sorted(student-list,key=cambda student:
+                       student.cgpa,reverse=true)
+return sorted-students
+
+
+#example usage:
+students=[
+    student("hari","A123",7.8),
+    student("srikanth",A124",8.9),
+    student("saumya","A125",9.1),
+    student("mahidhar","A126",9.9),
+]
+
+sorted-student=sort_students(students)
+
+#print the sorted list of students
+for student in sorted_students:
+    print("name:{},roll number:{}, CGPA:{}",format(student.name,
+student.roll- number,
+                                student.cgpa))
